@@ -1,0 +1,5 @@
+{
+    "warm_start_users": [],
+    "cold_start_users": [],
+    "fairness_groups": {}
+}

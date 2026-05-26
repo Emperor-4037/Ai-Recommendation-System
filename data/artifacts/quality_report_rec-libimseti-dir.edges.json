@@ -1,0 +1,27 @@
+{
+    "dataset": "rec-libimseti-dir.edges",
+    "total_rows": 17359346,
+    "missingness_profile": {
+        "user_id": 0.0,
+        "target_id": 0.0,
+        "rating": 0.0
+    },
+    "interaction_sparsity": {
+        "num_users": 135359,
+        "num_targets": 168791,
+        "density": 0.0007597958831059749,
+        "sparsity": 0.9992402041168941
+    },
+    "descriptive_statistics": {
+        "rating": {
+            "count": 17359346.0,
+            "mean": 5.9384367360383274,
+            "std": 3.1120050812256146,
+            "min": 1.0,
+            "25%": 3.0,
+            "50%": 6.0,
+            "75%": 9.0,
+            "max": 10.0
+        }
+    }
+}

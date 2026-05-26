@@ -1,0 +1,8 @@
+{
+    "dataset": "rec-libimseti-dir.edges",
+    "raw_to_canonical_mapping": {
+        "general_cleaning": "Strip whitespaces, lowercasing, conservative NA imputation",
+        "splitting": "Stable md5 hash on user/pair identifiers"
+    },
+    "engineered_features_origin": "Directly observed and deterministic transformations only."
+}

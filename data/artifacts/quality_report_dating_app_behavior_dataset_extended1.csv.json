@@ -1,0 +1,139 @@
+{
+    "dataset": "dating_app_behavior_dataset_extended1.csv",
+    "total_rows": 50000,
+    "missingness_profile": {
+        "gender": 0.0,
+        "sexual_orientation": 0.0,
+        "income_bracket": 0.0,
+        "education_level": 0.0,
+        "interest_tags": 0.0,
+        "app_usage_time_min": 0.0,
+        "app_usage_time_label": 0.0,
+        "likes_received": 0.0,
+        "mutual_matches": 0.0,
+        "profile_pics_count": 0.0,
+        "bio_length": 0.0,
+        "message_sent_count": 0.0,
+        "emoji_usage_rate": 0.0,
+        "last_active_hour": 0.0,
+        "match_outcome": 0.0,
+        "age": 0.0,
+        "height_cm": 0.0,
+        "weight_kg": 0.0,
+        "zodiac_sign": 0.0,
+        "body_type": 0.0
+    },
+    "interaction_sparsity": {},
+    "descriptive_statistics": {
+        "app_usage_time_min": {
+            "count": 50000.0,
+            "mean": 149.9124,
+            "std": 86.99052128396441,
+            "min": 0.0,
+            "25%": 74.0,
+            "50%": 150.0,
+            "75%": 225.0,
+            "max": 300.0
+        },
+        "likes_received": {
+            "count": 50000.0,
+            "mean": 99.52604,
+            "std": 57.99679882969309,
+            "min": 0.0,
+            "25%": 49.0,
+            "50%": 100.0,
+            "75%": 150.0,
+            "max": 200.0
+        },
+        "mutual_matches": {
+            "count": 50000.0,
+            "mean": 13.87028,
+            "std": 9.105615353517813,
+            "min": 0.0,
+            "25%": 6.0,
+            "50%": 13.0,
+            "75%": 22.0,
+            "max": 30.0
+        },
+        "profile_pics_count": {
+            "count": 50000.0,
+            "mean": 2.98772,
+            "std": 1.9967796433705156,
+            "min": 0.0,
+            "25%": 1.0,
+            "50%": 3.0,
+            "75%": 5.0,
+            "max": 6.0
+        },
+        "bio_length": {
+            "count": 50000.0,
+            "mean": 250.1744,
+            "std": 144.80099561538458,
+            "min": 0.0,
+            "25%": 125.0,
+            "50%": 250.0,
+            "75%": 376.0,
+            "max": 500.0
+        },
+        "message_sent_count": {
+            "count": 50000.0,
+            "mean": 50.07194,
+            "std": 29.167999932816812,
+            "min": 0.0,
+            "25%": 25.0,
+            "50%": 50.0,
+            "75%": 75.0,
+            "max": 100.0
+        },
+        "emoji_usage_rate": {
+            "count": 50000.0,
+            "mean": 0.2862054,
+            "std": 0.16004189226257476,
+            "min": 0.0,
+            "25%": 0.16,
+            "50%": 0.27,
+            "75%": 0.39,
+            "max": 0.94
+        },
+        "last_active_hour": {
+            "count": 50000.0,
+            "mean": 11.5218,
+            "std": 6.92047416144677,
+            "min": 0.0,
+            "25%": 5.0,
+            "50%": 12.0,
+            "75%": 18.0,
+            "max": 23.0
+        },
+        "age": {
+            "count": 50000.0,
+            "mean": 38.47792,
+            "std": 12.128434954778339,
+            "min": 18.0,
+            "25%": 28.0,
+            "50%": 38.0,
+            "75%": 49.0,
+            "max": 59.0
+        },
+        "height_cm": {
+            "count": 50000.0,
+            "mean": 172.58426,
+            "std": 16.13492568836124,
+            "min": 145.0,
+            "25%": 159.0,
+            "50%": 173.0,
+            "75%": 187.0,
+            "max": 200.0
+        },
+        "weight_kg": {
+            "count": 50000.0,
+            "mean": 72.099052,
+            "std": 17.071440729565495,
+            "min": 37.8,
+            "25%": 59.2,
+            "50%": 70.3,
+            "75%": 83.8,
+            "max": 120.0
+        }
+    }
+}

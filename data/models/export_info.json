@@ -1,0 +1,42 @@
+{
+    "metrics": {
+        "status": "champion"
+    },
+    "hyperparameters": {
+        "learning_rate": 0.00012845406428242827,
+        "weight_decay": 0.0032084281222386,
+        "embedding_dim": 64,
+        "dropout": 0.15879527856910058,
+        "lambda_spark": 0.15991246805803466,
+        "hidden_size": 512,
+        "batch_size": 2048
+    },
+    "config_snapshot": {
+        "embedding_dim": 64,
+        "lambda_spark": 0.2,
+        "multitask_weights": {
+            "forward": 1.0,
+            "reverse": 1.0,
+            "mutual": 2.0,
+            "reply": 0.5,
+            "utility": 0.1
+        },
+        "model_architecture": {
+            "user_num_dim": 1,
+            "cand_num_dim": 1,
+            "user_cat_vocab": {},
+            "cand_cat_vocab": {},
+            "embedding_dim": 64,
+            "hidden_sizes": [
+                512,
+                256,
+                128
+            ],
+            "dropout": 0.15879527856910058,
+            "graph_dim": 32,
+            "seq_dim": 64,
+            "ranker_input_dim": 352,
+            "reranker_input_dim": 256
+        }
+    }
+}

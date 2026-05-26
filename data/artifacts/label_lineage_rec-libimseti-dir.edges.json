@@ -1,0 +1,11 @@
+{
+    "dataset": "rec-libimseti-dir.edges",
+    "rules_applied": [
+        {
+            "exact_rule": "Deterministic preservation of direct pairwise rating signal. Rating capped 1-10.",
+            "source_field": "rating",
+            "transformation_order": 1,
+            "output_label_name": "rating"
+        }
+    ]
+}

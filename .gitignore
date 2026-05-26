@@ -141,10 +141,13 @@ cython_debug/
 
 # Datasets and models / databases
 datasets/
-data/models/
-data/artifacts/
-*.db
-*.sqlite
+
+# Exclude massive model/index files (over GitHub's 100MB limit)
+data/models/candidates.index
+
+# Exclude large preprocessed datasets and vocabulary files
+data/artifacts/*.parquet
+data/artifacts/vocab_okcupid_profiles.csv.json
 
 # IDEs
 .vscode/

@@ -1,0 +1,14 @@
+{
+    "dataset_name": "rec-libimseti-dir.edges",
+    "status": "Ready",
+    "source_type_inferred": true,
+    "pipeline_stages_run": [
+        "ingestion",
+        "preprocessing",
+        "splitting"
+    ],
+    "artifact_locations": {
+        "cleaned_data": "d:\\Ai Recommendation System\\data\\artifacts\\privacy_cleaned_rec-libimseti-dir.parquet",
+        "splits_data": "d:\\Ai Recommendation System\\data\\artifacts\\splits_privacy_cleaned_rec-libimseti-dir.parquet"
+    }
+}

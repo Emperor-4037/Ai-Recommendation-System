@@ -1,0 +1,11 @@
+{
+    "dataset": "dating_app_behavior_dataset_extended1.csv",
+    "rules_applied": [
+        {
+            "exact_rule": "Preserve provided label semantics for synthetic stress tests.",
+            "source_field": "various",
+            "transformation_order": 1,
+            "output_label_name": "synthetic_labels"
+        }
+    ]
+}

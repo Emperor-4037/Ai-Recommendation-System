@@ -1,0 +1,11 @@
+{
+    "dataset": "okcupid_profiles.csv",
+    "rules_applied": [
+        {
+            "exact_rule": "FORBID_FABRICATED_LABELS. Representation learning proxy only. No ground truth labels.",
+            "source_field": "None",
+            "transformation_order": 1,
+            "output_label_name": "proxy_target"
+        }
+    ]
+}

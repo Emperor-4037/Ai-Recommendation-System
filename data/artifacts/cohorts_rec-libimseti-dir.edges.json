@@ -1,0 +1,7 @@
+{
+    "warm_start_users": [],
+    "cold_start_users": [],
+    "fairness_groups": {},
+    "warm_start_count": 135359,
+    "cold_start_count": 0
+}
