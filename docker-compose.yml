@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: recsys_postgres
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: recsys
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    container_name: recsys_redis
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+  serving:
+    build:
+      context: .
+      dockerfile: Dockerfile.serving
+    container_name: recsys_serving
+    ports:
+      - "8000:8000"
+    environment:
+      - POSTGRES_URL=postgresql+asyncpg://user:password@postgres/recsys
+      - REDIS_URL=redis://redis:6379/0
+      - RECSYS_CONFIG_PATH=config.yaml
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      - postgres
+      - redis
+    restart: always
+
+volumes:
+  postgres_data:

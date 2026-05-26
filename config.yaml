@@ -1,0 +1,33 @@
+app_name: "Reciprocal Recommender"
+environment: "development"
+debug: true
+
+# Artifact paths
+artifact_path: "data/artifacts"
+dataset_path: "data/datasets"
+manifest_path: "data/manifests"
+
+# Models
+retrieval_embedding_dim: 64
+retrieval_hidden_sizes: [256, 128, 64]
+scorer_hidden_sizes: [256, 128, 64]
+scorer_dropout: 0.2
+
+# Reranker & Policy thresholds
+lambda_spark: 0.2
+lambda_comp: 0.2
+lambda_risk: 1.0
+lambda_pop: 0.1
+min_reciprocal_score: 0.4
+max_safety_risk: 0.2
+
+# Phase 2
+sequence_hidden_dim: 64
+sequence_window_size: 10
+graph_embedding_dim: 32
+exploration_budget: 0.1
+optuna_n_trials: 20
+canary_percentage: 0.1
+allow_synthetic_artifact_fallback_for_smoke_test_only: true
+model_path: "data/models"
+
